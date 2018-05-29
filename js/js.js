@@ -52,8 +52,15 @@ function cargaJ2() {
             pintar(jsonObject);
         });
     }
-
 }
+
+/*
+function cargarNoticias(){
+	var contado = 1;
+	$.getJSON("https://rawgit.com/sergjime/noticias/master/json/json" + contado + ".json"
+	contado++;
+	
+} */
 
 function masCarga() {
     if (contador == 1) {
