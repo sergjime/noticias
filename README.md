@@ -28,10 +28,9 @@ Esta carpeta contiene los arrays de objetos tipo json que se van a ir cargando e
 - noticia3.html
 - noticia4.html
 ### Carpeta rss
-Esta carpeta contiene los arrays de objetos tipo json que se van a ir cargando en la web
-- json1.json
-- json2.json
+Esta carpeta contiene el rss de la web
+- rss.xml
 ### Fichero README.md
-Esta carpeta contiene los arrays de objetos tipo json que se van a ir cargando en la web
+Este fichero contiene información detallada sobre el proyecto
 ### Fichero news.html
-Esta carpeta contiene los arrays de objetos tipo json que se van a ir cargando en la web
+Este fichero contiene la estructura principal de la web
