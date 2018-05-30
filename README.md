@@ -5,6 +5,7 @@
 | **La esctructra del proyecto es la siguiente** |
 | ---------- |
 | ![Estructura:](https://rawgit.com/sergjime/noticias/master/img/estructura.PNG)   |
-### Un archivo .json
-- questions.json
-## El contenido
+### Carpeta css
+- bootstrap.min.css
+- movil.css
+- pc.css
