@@ -21,3 +21,17 @@ Aquí está programada la funcionalidad que hará la web
 Esta carpeta contiene los arrays de objetos tipo json que se van a ir cargando en la web
 - json1.json
 - json2.json
+### Carpeta noticias
+Esta carpeta contiene los arrays de objetos tipo json que se van a ir cargando en la web
+- noticia1.html
+- noticia2.html
+- noticia3.html
+- noticia4.html
+### Carpeta rss
+Esta carpeta contiene los arrays de objetos tipo json que se van a ir cargando en la web
+- json1.json
+- json2.json
+### Fichero README.md
+Esta carpeta contiene los arrays de objetos tipo json que se van a ir cargando en la web
+### Fichero news.html
+Esta carpeta contiene los arrays de objetos tipo json que se van a ir cargando en la web
