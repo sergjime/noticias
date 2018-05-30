@@ -27,7 +27,7 @@ function pintar(json) {
         $("#box_" + posicion).append("<div id='noticia" + posicion + "' class='col-sm-12'></div>");
         $("#noticia" + posicion).append("<div id='thumbnail" + posicion + "' class='thumbnail'></div>");
         $("#thumbnail" + posicion).append("<p><img src='" + val.Imagen + "' alt='noticia" + posicion + "' /> </p>");
-        $("#thumbnail" + posicion).append("<p id='titulo" + posicion + "'> <strong>" + val.Titulo + "</strong></p>");
+        $("#thumbnail" + posicion).append("<p id='titulo" + posicion + "' class='negrita'>" + val.Titulo + "</p>");
         $("#thumbnail" + posicion).append("<p id='descripcion" + posicion + "'>" + val.Descipcion + "</p>");
         posicion++;
         rowContador++;

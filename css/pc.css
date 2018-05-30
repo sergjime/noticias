@@ -6,7 +6,7 @@ body{
 	background:url(../img/fondo.jpg) no-repeat center center fixed;
 	background-size: cover;
 }
-#contenedor, .navbar-inverse, .columna{
+#contenedor, .navbar-inverse{
 	background-color: #66453E;
 }
 #main{
@@ -20,9 +20,9 @@ body{
 	background-color: red;
 	height: 300px;
 }
-#noticias{
-	padding-right: 336px;
-	padding-left: 0;
+a{
+	text-decoration: none;
+	color: black;
 }
 .negrita{
 	margin-top: 1%;
