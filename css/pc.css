@@ -14,8 +14,10 @@ body{
 	padding-left: 0;
 }
 #publi{
+	position: absolute;
 	right: 0;
 	width: 336px;
+	background-color: red;
 	height: 300px;
 }
 #noticias{
@@ -37,9 +39,6 @@ body{
 }
 
 #cabecera{background-color:#183449; }
-
-
-#videos{text-align: center; }
 
 #contenedor{background-color:#B86851;}
 

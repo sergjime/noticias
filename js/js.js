@@ -37,52 +37,42 @@ function pintar(json) {
     });
 }
 
-function cargaJ1() {
+function cargaJson() {
     if (desplegar) {
-        $.getJSON("https://rawgit.com/sergjime/noticias/master/json/json1.json", function(jsonObject) {
+        $.getJSON("https://rawgit.com/sergjime/noticias/master/json/json" + contador + ".json", function(jsonObject) {
             console.log(jsonObject[0]);
             pintar(jsonObject);
         });
     }
 }
 
-function cargaJ2() {
-    if (desplegar) {
-        $.getJSON("https://rawgit.com/sergjime/noticias/master/json/json2.json", function(jsonObject) {
-            pintar(jsonObject);
-        });
-    }
-}
-
-/*
-function cargarNoticias(){
-	var contado = 1;
-	$.getJSON("https://rawgit.com/sergjime/noticias/master/json/json" + contado + ".json"
-	contado++;
-	
-} */
 
 function masCarga() {
     if (contador == 1) {
         desplegar = true;
-        cargaJ1();
+        cargaJson(contador);
 
     } else if (contador == 2) {
         desplegar = true;
-        cargaJ2();
+        cargaJson(contador);
 
     }
     contador++;
 }
 
 $(document).ready(function() {
+	alert($(window).scrollTop());
+	alert($(document).height() - $(window).height());
+	$("#arriba").click(function(){
+    	$("html, body").animate({scrollTop:"0px"});
+	});
     var win = $(window);
     win.scroll(function() {
-        if ($(document).height() - win.height() == win.scrollTop()) {
+        if (($(document).height() - win.height()) - 1.5 <= win.scrollTop()) {
             masCarga();
         }
         $("button").click(function(){
      		masCarga();
     	});
-    });
+    }); 
 });
