@@ -34,3 +34,11 @@ Esta carpeta contiene el rss de la web
 Este fichero contiene información detallada sobre el proyecto
 ### Fichero news.html
 Este fichero contiene la estructura principal de la web
+
+
+| **Carpeta css** | **Carpeta img** |
+| ---------- | ---------- |
+| Esta carpeta contiene los estilos de la web
+- bootstrap.min.css
+- movil.css
+- pc.css   | Esta carpeta contiene las imágenes utilizadas en la web   |
