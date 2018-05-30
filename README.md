@@ -6,14 +6,14 @@
 | ---------- |
 | ![Estructura:](https://rawgit.com/sergjime/noticias/master/img/estructura.PNG)   |
 ### Carpeta css
-<code>Esta carpeta contiene los estilos de la web</code>
+Esta carpeta contiene los estilos de la web
 - bootstrap.min.css
 - movil.css
 - pc.css
 ### Carpeta img
-<code>Esta carpeta contiene las imágenes utilizadas en la</code>
+Esta carpeta contiene las imágenes utilizadas en la web
 ### Carpeta js
-<code>Aquí está programada la <code>funcionalidad</code> que hará la web</code>
+Aquí está programada la funcionalidad que hará la web
 - bootstrap.min.js
 - jquery-3.2.1.min.js
 - js.js
