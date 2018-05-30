@@ -4,4 +4,4 @@
 ------------------------------------------------------------------------------
 | **La esctructra del proyecto es la siguiente** |
 | ---------- |
-| ![Estructura:](https://github.com/sergjime/Examen-parte1/blob/master/img/pregunta1.png)   |
+| ![Estructura:](https://rawgit.com/sergjime/noticias/master/img/estructura.PNG)   |
