@@ -17,3 +17,7 @@ Aquí está programada la funcionalidad que hará la web
 - bootstrap.min.js
 - jquery-3.2.1.min.js
 - js.js
+### Carpeta json
+Esta carpeta contiene los arrays de objetos tipo json que se van a ir cargando en la web
+- json1.json
+- json2.json
