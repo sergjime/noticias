@@ -13,7 +13,7 @@
 ### Carpeta img
 <code>Esta carpeta contiene las imágenes utilizadas en la</code>
 ### Carpeta js
-<code>Aquí está programada la funcionalidad que hará la web</code>
+<code>Aquí está programada la <code>funcionalidad</code> que hará la web</code>
 - bootstrap.min.js
 - jquery-3.2.1.min.js
 - js.js
