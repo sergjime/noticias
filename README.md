@@ -6,7 +6,7 @@
 | ---------- |
 | ![Estructura:](https://rawgit.com/sergjime/noticias/master/img/estructura.PNG)   |
 ### Carpeta css
-<code>Esta carpeta contiene los estilos del proyecto<code>
+<code>Esta carpeta contiene los estilos del proyecto</code>
 - bootstrap.min.css
 - movil.css
 - pc.css
