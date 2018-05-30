@@ -46,7 +46,6 @@ function cargaJson() {
     }
 }
 
-
 function masCarga() {
     if (contador == 1) {
         desplegar = true;
@@ -55,14 +54,12 @@ function masCarga() {
     } else if (contador == 2) {
         desplegar = true;
         cargaJson(contador);
-
     }
     contador++;
 }
 
 $(document).ready(function() {
-	alert($(window).scrollTop());
-	alert($(document).height() - $(window).height());
+
 	$("#arriba").click(function(){
     	$("html, body").animate({scrollTop:"0px"});
 	});
