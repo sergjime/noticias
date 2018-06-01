@@ -41,4 +41,4 @@ Este fichero contiene información detallada sobre el proyecto
 ### Fichero news.html
 Este fichero contiene la estructura principal de la web
 
-El rawgit de este proyecto lo podemos ver [aquí](https://rawgit.com/sergjime/noticias/master/news.html).
+El rawgit de este proyecto lo podemos ver [aquí](https://rawgit.com/sergjime/noticias/min/news.html).
