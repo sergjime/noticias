@@ -1,6 +1,7 @@
 var contador;
 var posicion;
 var desplegar;
+var activado;
 
 var rowContador;
 var rowPosicion;
@@ -14,6 +15,7 @@ window.onload = function() {
     desplegar = true;
     rowPosicion = 0;
     rowContador = 0;
+    activado = false;
 }
 
 function pintar(json) {
@@ -33,8 +35,25 @@ function pintar(json) {
         rowContador++;
         if (key == 3) {
             desplegar = false;
+            $("#arriba").append("ESTO ES UNA PRUEBA");
         }
     });
+}
+
+function desactivarScroll(){
+    $('html, body').css({
+        'overflow': 'hidden',
+        'height': '100%'
+    });
+    activado = true;
+}
+
+function activarScroll(){
+    $('html, body').css({
+        'overflow': 'auto',
+        'height': 'auto'
+    });
+    activado = false;
 }
 
 function cargaJson() {
@@ -65,11 +84,24 @@ $(document).ready(function() {
 	});
     var win = $(window);
     win.scroll(function() {
-        if (($(document).height() - win.height()) - 1.5 <= win.scrollTop()) {
-            masCarga();
+        if (($(document).height() - win.height()) - 1.5 <= win.scrollTop() && contador < 3) {
+
+            $(".cargaNoticias").fadeIn("fast");
+            setTimeout('masCarga()',1000);
+        }else{
+            $(".cargaNoticias").fadeOut("fast");
         }
+
         $("button").click(function(){
      		masCarga();
     	});
-    }); 
+
+        $("#activar").click(function(){
+            if(activado == false){
+                desactivarScroll();
+            }else{
+                activarScroll();
+            }
+        });
+    });
 });

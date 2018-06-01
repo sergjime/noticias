@@ -24,6 +24,15 @@ a{
 	text-decoration: none;
 	color: black;
 }
+#activar{
+	position: fixed;
+	right: 0;
+	top: 30px;
+}
+.cargaNoticias{
+	display: none;
+}
+
 .negrita{
 	margin-top: 1%;
 	font-weight: bold;
