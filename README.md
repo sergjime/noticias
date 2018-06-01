@@ -1,6 +1,6 @@
 ### Últimas modificaciones en el proyecto
 1. Añadí un botón en la parte superior derecha para desactivar y activar el scroll.
-2. Añadí un bucle en el archivo .js para cargar los ficheros json co una sola función.
+2. Añadí un bucle en el archivo <code>js</code> para cargar los ficheros <code>json</code> con una sola función.
 
 # Página web de noticias auto rellenable con el scroll
 ![Aspecto:](https://raw.githubusercontent.com/sergjime/noticias/master/img/web.png) 
